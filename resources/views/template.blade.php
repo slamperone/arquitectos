@@ -184,8 +184,10 @@ $estilos = array(
     </div>
   </header>
   <!-- Header End -->
-
-
+<!--
+Echame tu contenido carnal
+-->
+@yield('contenido')
 
   <!--======= Footer =========-->
   <footer>
@@ -222,14 +224,15 @@ $escripts = array(
 );
 ?>
 
+@foreach ($escripts as $escript)
+<script src="{{ asset('js/'.$escript) }}"></script>
+@endforeach
 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 
-@foreach ($escripts as $escript)
-<script src="{{ asset('js/'.$escript) }}"></script>
-@endforeach
+
 
 </body>
 </html>
