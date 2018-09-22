@@ -1,0 +1,13 @@
+{
+	"Forgot Your Password?":"¿Olvidaste tu contraseña?",
+	"Login": "Entrar al sistema",
+	"Logout": "Salir",
+	"Name":"Nombre",
+	"E-Mail Address":"Correo",
+	"Password": "Contraseña",
+	"Register":"Regístrate",
+	"Remember Me": "No cerrar sesion",
+	"Confirm Password": "Confirma tu contraseña",
+	"These credentials do not match our records.": "No reconozco este dato",
+	"Dashboard":"Bienvenido"
+}
