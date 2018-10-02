@@ -16,8 +16,10 @@ class CreateConstruidoTable extends Migration
         Schema::create('construido', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
+            $table->integer('extrellas');
+            $table->string('principal',50);
             $table->text('fotos');
-            $table->string('ano');
+            $table->integer('ano');
             $table->timestamps();
         });
     }
