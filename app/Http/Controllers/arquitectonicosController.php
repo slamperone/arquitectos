@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Arquitectonicos;
 use Illuminate\Http\Request;
 
-class arquitectonicosController extends Controller
+class ArquitectonicosController extends Controller
 {
     /**
      * Display a listing of the resource.

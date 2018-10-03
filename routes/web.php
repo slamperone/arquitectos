@@ -21,3 +21,8 @@ Route::get('/home', 'HomeController@index')->name('ola');
 Route::resource('venta','VentaController');
 Route::resource('construidos','ConstruidosController');
 Route::resource('arquitectonicos','ArquitectonicosController');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
