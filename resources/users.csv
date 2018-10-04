@@ -1,0 +1,2 @@
+id,role_id,"name","email","avatar","password","remember_token","settings","created_at","updated_at"
+1,1,"adrian","adrian@develupme.com","users/October2018/ipRA7GoqkxEgb45LRR61.jpg","$2y$10$xnxlsmVncl1OZHkZa68z9eYahBwV3UYBjCyXnY6sjtZ6hN7YpJk02",NULL,"{\"locale\":\"es\"}","2018-10-04 08:06:12","2018-10-04 08:16:55"

@@ -1,0 +1,5 @@
+id,"name","slug","display_name_singular","display_name_plural","icon","model_name","policy_name","controller","description",generate_permissions,server_side,"details","created_at","updated_at"
+1,"users","users","User","Users","voyager-person","TCG\\Voyager\\Models\\User","TCG\\Voyager\\Policies\\UserPolicy","","",1,0,NULL,"2018-10-04 08:10:02","2018-10-04 08:10:02"
+2,"menus","menus","Menu","Menus","voyager-list","TCG\\Voyager\\Models\\Menu",NULL,"","",1,0,NULL,"2018-10-04 08:10:02","2018-10-04 08:10:02"
+3,"roles","roles","Role","Roles","voyager-lock","TCG\\Voyager\\Models\\Role",NULL,"","",1,0,NULL,"2018-10-04 08:10:02","2018-10-04 08:10:02"
+4,"arquitectonicos","arquitectonicos","Arquitectonico","Arquitectonicos",NULL,"App\\Arquitectonico",NULL,NULL,"Propiedades para la sección arquitectonicos",1,0,"{\"order_column\":\"id\",\"order_display_column\":\"created_at\"}","2018-10-04 08:20:04","2018-10-04 08:26:49"
