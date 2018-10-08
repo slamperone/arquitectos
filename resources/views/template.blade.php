@@ -136,16 +136,16 @@ $estilos = array(
 
           <div class="menu-toggle"> <i class="fa fa-bars"> </i> </div>
           <ul class="ownmenu">
-          <li class="active"><a href="index.html">INICIO</a>
+          <li class="active"><a href="{{ url('') }}">INICIO</a>
           </li>
-          <li class="active"><a href="enventa.html">EN VENTA</a>
+          <li class="active"><a href="{{ route('venta.index') }}">EN VENTA</a>
             <ul class="dropdown">
               <li><a href="chipilo.html">Chipilo 718</a></li>
               <li><a href="teziutlan.html">Teziutlán 34</a></li>
 
             </ul>
           </li>
-          <li class="active"><a href="construidos.html">CONSTRUIDOS</a>
+          <li class="active"><a href="{{ route('construidos.index') }}">CONSTRUIDOS</a>
             <ul class="dropdown">
 
               <li><a href="oficinassantafe.html">Oficinas Santa Fe</a></li>
@@ -167,7 +167,7 @@ $estilos = array(
 
 
 
-             <li class="active"><a href="arquitectonicos.html">ARQUITECTONICOS</a>
+             <li class="active"><a href="{{ route('arquitectonicos.index') }}">ARQUITECTONICOS</a>
             <ul class="dropdown">
               <li><a href="sanmiguel.html">Centro San Miguel</a></li>
               <li><a href="pharmacy.html">Pharmacy</a></li>
@@ -176,7 +176,7 @@ $estilos = array(
               <li><a href="lourdes.html">Lourdes Malinalco</a></li>
             </ul>
           </li>
-          <li><a href="04-contact-03.html">CONTACTO</a>
+          <li><a href="{{ url('contacto') }}">CONTACTO</a>
           </li>
        </ul>
         </nav>
@@ -201,7 +201,7 @@ Echame tu contenido carnal
 
       <!-- Rights -->
       <div class="rights">
-        <p>|  www.c-arquitectos.com.mx  |  2018  | </p>
+        <p>|  www.c-arquitectos.com.mx  |  {{ now()->year }}  | </p>
       </div>
     </div>
   </footer>

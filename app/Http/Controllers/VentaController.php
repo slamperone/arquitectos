@@ -14,7 +14,12 @@ class VentaController extends Controller
      */
     public function index()
     {
-        //
+        //listado de propiedades en venta
+        $ventas = Venta::latest()->paginate(6);
+
+
+        return view('venta',compact('ventas'));
+
     }
 
     /**
