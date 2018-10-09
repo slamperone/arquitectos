@@ -14,7 +14,9 @@ class ConstruidosController extends Controller
      */
     public function index()
     {
-        //
+        //listado completa de contruidos
+        $cons = Construidos::all();
+        return view('construidos',compact('cons'));
     }
 
     /**

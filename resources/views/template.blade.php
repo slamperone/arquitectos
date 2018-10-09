@@ -101,8 +101,8 @@ $estilos = array(
           </ul>
           <!-- Social Icons -->
           <ul class="social_icons">
-            <li class="facebook"><a href="#."><i class="fa fa-facebook"></i> </a></li>
-            <li class="twitter"><a href="#."><i class="fa fa-twitter"></i> </a></li>
+            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i> </a></li>
+            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i> </a></li>
             <!--<li class="dribbble"><a href="#."><i class="fa fa-dribbble"></i> </a></li>
             <li class="googleplus"><a href="#."><i class="fa fa-google-plus"></i> </a></li>
             <li class="linkedin"><a href="#."><i class="fa fa-linkedin"></i> </a></li>-->
@@ -139,14 +139,14 @@ $estilos = array(
           <li class="active"><a href="{{ url('') }}">INICIO</a>
           </li>
           <li class="active"><a href="{{ route('venta.index') }}">EN VENTA</a>
-            <ul class="dropdown">
+            <!--ul class="dropdown">
               <li><a href="chipilo.html">Chipilo 718</a></li>
               <li><a href="teziutlan.html">Teziutlán 34</a></li>
 
-            </ul>
+            </ul-->
           </li>
           <li class="active"><a href="{{ route('construidos.index') }}">CONSTRUIDOS</a>
-            <ul class="dropdown">
+            <!--ul class="dropdown">
 
               <li><a href="oficinassantafe.html">Oficinas Santa Fe</a></li>
               <li><a href="atizapan.html">Fraccionamiento Atizapan</a></li>
@@ -161,20 +161,20 @@ $estilos = array(
               <li><a href="montes.html">Montes de Oca</a></li>
               <li><a href="cbzetina.html">Carlos B Zetina</a></li>
               <li><a href="casacastro.htm">Casa Castro</a></li>
-            </ul>
+            </ul-->
           </li>
 
 
 
 
              <li class="active"><a href="{{ route('arquitectonicos.index') }}">ARQUITECTONICOS</a>
-            <ul class="dropdown">
+            <!--ul class="dropdown">
               <li><a href="sanmiguel.html">Centro San Miguel</a></li>
               <li><a href="pharmacy.html">Pharmacy</a></li>
               <li><a href="zendere.html">Zendere los Cabos</a></li>
               <li><a href="rodriguez.html">Rodríguez Malinalco</a></li>
               <li><a href="lourdes.html">Lourdes Malinalco</a></li>
-            </ul>
+            </ul-->
           </li>
           <li><a href="{{ url('contacto') }}">CONTACTO</a>
           </li>

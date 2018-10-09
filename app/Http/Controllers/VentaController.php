@@ -16,8 +16,6 @@ class VentaController extends Controller
     {
         //listado de propiedades en venta
         $ventas = Venta::latest()->paginate(6);
-
-
         return view('venta',compact('ventas'));
 
     }
@@ -54,7 +52,6 @@ class VentaController extends Controller
         //detalle de la propiedad en venta
 
         $prop = Venta::where('slug','=', $prop)->firstOrFail();
-
         return view('detalleVenta',compact('prop'));
 
 
