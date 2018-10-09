@@ -49,9 +49,15 @@ class VentaController extends Controller
      * @param  \App\Venta  $venta
      * @return \Illuminate\Http\Response
      */
-    public function show(Venta $venta)
+    public function show($prop)
     {
-        //
+        //detalle de la propiedad en venta
+
+        $prop = Venta::where('slug','=', $prop)->firstOrFail();
+
+        return view('detalleVenta',compact('prop'));
+
+
     }
 
     /**

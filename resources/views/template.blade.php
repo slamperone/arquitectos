@@ -192,7 +192,7 @@ Echame tu contenido carnal
   <!--======= Footer =========-->
   <footer>
     <div class="container">
-      <div class="text-center"> <a href="#."><img src="images/logo.png" alt=""></a><br>
+      <div class="text-center"> <a href="{{url('')}}"><img src="{{ asset('images/logo.png')}}" alt=""></a><br>
 
         <p class="intro-small margin-t-40">Aportamos valor mediante soluciones arquitectónicas que respondan a los requerimientos y preferencias de nuestros clientes, maximicen el valor de su inversión, con calidad en el trabajo y en los materiales utilizados.</p>
       </div>

@@ -10,7 +10,7 @@
         <h4>DESARROLLOS EN PREVENTA</h4>
         <!-- Breadcrumb -->
         <ol class="breadcrumb">
-          <li><a href="#">Inicio</a></li>
+          <li><a href="{{ url('') }}">Inicio</a></li>
           <li class="active">En Venta</li>
         </ol>
       </div>
@@ -35,7 +35,7 @@
                     <div class="over-item">
                       <ul class="animated fadeIn">
 
-                        <li class="full-w"> <a href="chipilo.html" class="btn">DETALLES</a></li>
+                        <li class="full-w"> <a href="{{ route('venta.show', [$venta->slug]) }}" class="btn">DETALLES</a></li>
                         <!-- Rating Stars -->
                         <li class="stars">
                           @for ($i = 0; $i <= $venta->estrellas; $i++)
@@ -47,7 +47,7 @@
                       </ul>
                     </div>
                     <!-- Item Name -->
-                    <div class="details-sec"> <a href="chipilo.html">{{ $venta->nombreCorto }}</a> <span class="font-montserrat">{{ $venta->precio }}</span> </div>
+                    <div class="details-sec"> <a href="{{ route('venta.show', [$venta->slug]) }}">{{ $venta->nombreCorto }}</a> <span class="font-montserrat">{{ $venta->precio }}</span> </div>
                   </div>
                 </li>
 
