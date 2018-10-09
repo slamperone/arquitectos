@@ -40,7 +40,7 @@
                  @php $images = json_decode($prop->fotosPrincipal); @endphp
 
                   @if($images)
-                      @php $images = array_slice($images, 0, 3); @endphp
+                      @php $images = array_slice($images, 0); @endphp
                           @foreach($images as $image)
 
                           <li data-thumb="@if( !filter_var($image, FILTER_VALIDATE_URL)){{

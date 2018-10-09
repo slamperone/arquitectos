@@ -46,9 +46,11 @@ class ConstruidosController extends Controller
      * @param  \App\Construidos  $construidos
      * @return \Illuminate\Http\Response
      */
-    public function show(Construidos $construidos)
+    public function show($construidos)
     {
         //
+        $prop = Construidos::where('slug', '=', $construidos)->first();
+        return view('detalleConstruidos',compact('prop'));
     }
 
     /**
